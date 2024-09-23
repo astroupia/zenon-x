@@ -4,7 +4,7 @@ const Home: React.FC = () => {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h1>ZEONO-X - Client View</h1>
+        <h1 className={styles.title}>ZEONO-X - Client View</h1>
       </div>
     </main>
   );
