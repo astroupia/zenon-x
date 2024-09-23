@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "@/components/card";
+import Card from "@/components/project-card";
 import styles from "@/styles/project-grid.module.css";
 
 interface Project {
@@ -35,7 +35,7 @@ const ProjectGrid: React.FC = () => {
         ) => (
           <Card
             key={project.title} // Changed key to use project.title
-            title={project.title}
+            tech={project.title}
             description={project.description}
             imageUrl={project.imageUrl}
           />

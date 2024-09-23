@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "@/components/side-bar";
-import Card from "@/components/card";
+import Card from "@/components/project-card";
 import styles from "@/styles/Home.module.css";
 
 const projects = [
