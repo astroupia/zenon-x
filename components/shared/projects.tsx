@@ -50,7 +50,6 @@ const Projects: React.FC = () => {
               tech={project.title}
               description={project.description}
               imageUrl={project.imageUrl}
-              techStack={project.techStack}
             />
           ))
         ) : (
