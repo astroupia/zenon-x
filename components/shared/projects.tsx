@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
           filteredProjects.map((project, index) => (
             <Card
               key={index}
-              title={project.title}
+              tech={project.title}
               description={project.description}
               imageUrl={project.imageUrl}
               techStack={project.techStack}
