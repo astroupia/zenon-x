@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "@/components/project-card";
-import styles from "@/styles/project-grid.module.css";
+import styles from "../../styles/project-grid.module.css";
 
 interface Project {
   title: string;

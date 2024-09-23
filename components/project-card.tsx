@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/styles/card.module.css";
+import styles from "../styles/card.module.css";
 
 interface ProjectCardProps {
   tech: string; // Added title prop

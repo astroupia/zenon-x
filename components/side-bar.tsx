@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import styles from "@/styles/side-bar.module.css";
+import styles from "../styles/side-bar.module.css";
 
 interface SidebarProps {
   selectedTech: string[];
