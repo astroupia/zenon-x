@@ -29,14 +29,18 @@ const projects: Project[] = [
 const ProjectGrid: React.FC = () => {
   return (
     <div className={styles.grid}>
-      {projects.map((project, index) => (
-        <Card
-          key={index}
-          title={project.title}
-          description={project.description}
-          imageUrl={project.imageUrl}
-        />
-      ))}
+      {projects.map(
+        (
+          project // Removed index parameter
+        ) => (
+          <Card
+            key={project.title} // Changed key to use project.title
+            title={project.title}
+            description={project.description}
+            imageUrl={project.imageUrl}
+          />
+        )
+      )}
     </div>
   );
 };

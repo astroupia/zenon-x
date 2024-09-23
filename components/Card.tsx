@@ -2,7 +2,9 @@ import React from "react";
 import styles from "@/styles/card.module.css";
 
 interface ProjectCardProps {
-  tech: string;
+  title: string; // Added title prop
+  description: string; // Added description prop
+  imageUrl: string; // Added imageUrl prop
 }
 
 const projectData: Record<
