@@ -1,9 +1,10 @@
+import DeveloperProject from "@/view/developer-project";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <h1>Executives Page</h1>
+      <DeveloperProject />
     </div>
   );
 };
