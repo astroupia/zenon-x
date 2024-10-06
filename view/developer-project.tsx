@@ -6,7 +6,7 @@ import ProjectCard from "@/components/project-card";
 import styles from "../styles/developer-project.module.css";
 
 const DeveloperProject: React.FC = () => {
-  const [selectedTech, setSelectedTech] = useState<string[]>([]); // Move this line outside of the return statement
+  const [selectedTech, setSelectedTech] = useState<string[]>([]); 
   const handleSelectTech = (tech: string) => {
     // Move this line outside of the return statement
     setSelectedTech((prevSelectedTech) =>
